@@ -1,0 +1,1 @@
+export const website = 'https://katalon-demo-cura.herokuapp.com/';

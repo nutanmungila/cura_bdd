@@ -1,12 +1,14 @@
 import { Given, Then, When } from "@badeball/cypress-cucumber-preprocessor";
+import {website} from "./variables"
+import {url} from "../lib/utils";
 
 Given('I navigate to the page',()=>{
-    cy.visit('https://katalon-demo-cura.herokuapp.com/');
+    cy.visit(url);
       
 })
 
 When('I visit katalon demo',()=>{
-    cy.visit('https://katalon-demo-cura.herokuapp.com/');
+    cy.visit(website);
       
 })
 Then('I should see make appointment',()=>{
